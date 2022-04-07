@@ -1,0 +1,345 @@
+body{
+    margin: 0px;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: right;
+    background-color: #c3cbb8;
+    /* background-color: #d6d6d4; */
+    padding: 15px 20px;
+}
+nav a {
+    padding: 5px 25px;
+    font-family: 'TT Knickerbockers';
+    font-size: 30px;
+    color: #423f32;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: none;
+}
+
+/* HOME */
+
+.home-page {
+    width: 100%;
+    height:720px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-image: url(./img/home-bckgrnd.jpeg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position-x:center;
+    background-position-y:center;
+    opacity: 0,5;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.3);
+
+}
+
+.home-page h1 {
+  padding-top: 1.5em;
+  font-weight: normal;
+  font-size: 80px;
+  font-family: 'Baron Neue', sans-serif;
+  color: whitesmoke;
+}
+
+/* PRODUCTS */
+
+.products-page {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.productos {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: stretch;
+    padding: 70px 20px;
+    flex-grow: 1;
+    flex-wrap: nowrap;
+    
+}
+
+h1 {
+    display: flex;
+    font-family: 'TT Knickerbockers';
+    font-size: 45px;
+    color: #423f32;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+}
+
+.vela-alicia {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    padding: 5px;
+    flex-grow: 1;
+    flex-basis: 30%;
+    border: 1px black;
+    
+}
+
+.vela-azucena {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    padding: 5px;
+    flex-grow: 1;
+    flex-basis: 30%;
+    border: 1px black;
+}
+
+.difusor {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    padding: 5px;
+    flex-grow: 1;
+    flex-basis: 30%;
+    border: 1px black;
+}
+
+p {
+    padding: 10px 50px;
+    margin: 0px;
+    text-align: center;
+    font-family: 'TT Knickerbockers';
+    font-size: 18px;
+}
+
+.productos a {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+.productos h4 {
+    font-family: 'TT Knickerbockers';
+    color: #cbc0b8;
+    font-size: 25px;
+    margin: 10px;
+
+}
+
+h6 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 18px;
+    font-style: normal;
+    color: #423f32;
+    margin: 0px;
+    padding-top: 10px;
+}
+
+img {
+    object-fit:contain;
+    width: 60%;
+    height: 100%;
+
+}
+
+/* ABOUT */
+
+.nosotros-content {
+    display: flex;
+    flex-direction: row;
+    height: 480px;
+
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'TT Knickerbockers';
+    font-size: 35px;
+    color: #423f32;
+    text-transform: none;
+    width: 30%;
+}
+
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    padding-right: 20px;
+}
+
+.nosotros-text {
+    font-family: 'TT Knickerbockers';
+    font-size: 25px;
+    text-align: justify;
+    color: #423f32;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #c3cbb8;
+    padding: 50px;
+}
+
+h4{
+    display: flex;
+    align-items: center;
+    font-family: 'TT Knickerbockers';
+    font-size: 30px;
+    color: #423f32;
+    font-weight: normal;
+    margin: 10px 0 50px;
+    /* margin: 20px;
+    margin-top: 5px; */
+
+}
+
+.enlaces{
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+.enlaces a {
+    padding: 5px 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: whitesmoke;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: none;
+}
+
+/* CONTACT */
+
+.contact-items h5{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    font-family: 'TT Knickerbockers';
+    font-size: 22px;
+    color: whitesmoke;
+}
+
+.contact-items {
+    display: flex;
+    flex-direction: column;
+    align-content:center;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./img/bckgrnd-2.jpeg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position-x:center;
+    background-position-y:center;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.3);
+    width: 100%;
+    height:720px;
+}
+
+.mail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(209, 208, 205, 0.829);
+    border-radius: 8px;
+    padding: 10px 20px;
+    height: 400px;
+
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+input {
+    padding: 10px;
+    margin: 10px;
+    background-color: transparent;
+    text-align: center;
+    font-family: 'TT Knickerbockers';
+    font-size: 18px;
+    color: #423f32;
+    border: solid 1px #423f32;
+    border-radius: 2px;
+}
+
+textarea {
+    padding: 10px;
+    margin: 10px;
+    background-color: transparent;
+    text-align: left;
+    font-family: 'TT Knickerbockers';
+    font-size: 18px;
+    color: #423f32;
+    border: 1px solid #423f32;
+    border-radius: 2px;
+}
+
+::placeholder {
+    color: #423f32;
+    opacity: 1;
+  }
+
+button {
+    background-color: #cbcab8;
+    width: 15%;
+    margin: auto;
+    border: solid 1px #cbc5b8;
+    font-family: 'TT Knickerbockers';
+    font-size: 18px ;
+    color: #423f32;
+}
+
+button:hover {
+    background-color: #cbc5b8; 
+    color: white;
+}
+
+/* .social-media h4{
+    font-family: 'TT Knickerbockers';
+    font-size: 22px;
+    color: whitesmoke;
+    margin: 10px;
+    padding: 10px;
+} */
+
+.sm-icons {
+    display: flex;
+    flex-direction: row;
+}
+.sm-icons i{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 30px;
+    color: whitesmoke;
+    /* padding-bottom: 30px; */
+    padding: 10px 20px;
+}
+

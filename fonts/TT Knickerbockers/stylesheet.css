@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'TT Knickerbockers';
+    src: url('TTKnickerbockers-Script.eot');
+    src: local('TT Knickerbockers Script'), local('TTKnickerbockers-Script'),
+        url('TTKnickerbockers-Script.eot?#iefix') format('embedded-opentype'),
+        url('TTKnickerbockers-Script.woff2') format('woff2'),
+        url('TTKnickerbockers-Script.woff') format('woff'),
+        url('TTKnickerbockers-Script.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Knickerbockers';
+    src: url('TTKnickerbockers-Grotesk.eot');
+    src: local('TT Knickerbockers Grotesk'), local('TTKnickerbockers-Grotesk'),
+        url('TTKnickerbockers-Grotesk.eot?#iefix') format('embedded-opentype'),
+        url('TTKnickerbockers-Grotesk.woff2') format('woff2'),
+        url('TTKnickerbockers-Grotesk.woff') format('woff'),
+        url('TTKnickerbockers-Grotesk.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
