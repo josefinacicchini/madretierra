@@ -6,52 +6,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/5478f20e47.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
-    <style type="text/css" media="screen, print">
-    @font-face {
-    font-family: 'TT Knickerbockers';
-    src: url('TTKnickerbockers-Script.eot');
-    src: local('TT Knickerbockers Script'), local('TTKnickerbockers-Script'),
-        url('TTKnickerbockers-Script.eot?#iefix') format('embedded-opentype'),
-        url('TTKnickerbockers-Script.woff2') format('woff2'),
-        url('TTKnickerbockers-Script.woff') format('woff'),
-        url('TTKnickerbockers-Script.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal;
-    }
-    </style>
+    <link href="http://fonts.cdnfonts.com/css/baron-neue" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Libre Franklin font -->
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100;0,400;1,600&display=swap" rel="stylesheet"> 
+    <!-- Raleway font -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;600&display=swap" rel="stylesheet">
+    <!-- Quicksand font -->
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap" rel="stylesheet">
+
     <title>Madre Tierra | Contacto</title>
 </head>
 <body>
     <nav>
         <a href="./index.html">HOME</a> 
         <a href="./products.html">PRODUCTOS</a> 
-        <a href="./about.html">NOSOTROS</a> 
+        <a href="./about.html">NOSOTRAS</a> 
         <a href="./contact.html">CONTACTO</a> 
     </nav>
 
     <div class="contact-items">
-        <!-- <h1>Contacto</h1> -->
         <h5>madretierravelas@gmail.com</h5>
         <section class="mail">
-            <!-- <div class="form-container"> -->
-                <form action="" class="form-container">
-                    <input name="name" type="text" autocomplete="name" placeholder="Nombre">
-                    <input name="email" type="text" autocomplete="email" placeholder="Mail" required>
+                <form class="form-container">
+                    <input class="nombre" name="name" type="text" autocomplete="name" placeholder="Nombre">
+                    <input class="email" name="email" type="text" autocomplete="email" placeholder="Mail" required>
                     <input name="subject" type="text" placeholder="Asunto">
-                    <textarea name="message" class="" cols="30" rows="10"></textarea>
+                    <textarea name="message" class="mensaje" cols="30" rows="10"></textarea>
                     <button type="submit">ENVIAR</button>
                 </form>
-            <!-- </div> -->
+
         </section>
 
         <section class="social-media">
-            <!-- <h4>SOCIAL MEDIA</h4> -->
             <div class="sm-icons">
-            <i class="fa-brands fa-facebook-square"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-twitter-square"></i>
+            <a href="https://www.facebook.com/madre.tierra.104203" target="_blank"><i class="fa-brands fa-facebook-square"></i></a>
+            <a href="https://www.instagram.com/madretierravelas/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <!-- <a href=""><i class="fa-brands fa-twitter-square"></i></a> -->
+
+            
             </div>
         </section>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
