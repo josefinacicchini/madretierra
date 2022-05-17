@@ -381,7 +381,9 @@ button:hover {
     justify-content: space-between;
     font-size: 2rem;
     color: whitesmoke;
-    text-decoration: none;
     padding: 0.5rem 1rem;
 }
 
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
